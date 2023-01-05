@@ -5,7 +5,7 @@ import shutil
 print(Augmentor.__version__)
 
 # Créez un objet "pipeline" avec votre jeu de données d'images
-folder_paths = ['data/ange', 'data/clown','data/goldfish','data/lion','data/scalaire']
+folder_paths = ['data/ange', 'data/clown','data/goldfish','data/lion','data/scalaire'] 
 
 for folder in folder_paths:
     p = Augmentor.Pipeline(folder,output_directory = '')

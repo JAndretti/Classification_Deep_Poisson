@@ -9,7 +9,7 @@ for folder_path in folder_paths:
   folder_name = os.path.basename(folder_path)
 
   # Récupérer la liste de tous les fichiers dans le dossier
-  file_list = os.listdir(folder_path)
+  file_list = os.listdir(folder_path) 
   print(len(file_list))
 
   # Pour chaque fichier dans la liste

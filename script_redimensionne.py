@@ -6,7 +6,7 @@ import cv2
 
 
 poisson = ['ange', 'clown','goldfish','lion','scalaire']
-try:
+try: 
     os.mkdir('new_data')
     for poisson in poisson:
         os.mkdir('new_data/'+poisson)
